@@ -1,0 +1,42 @@
+## Ignore Visual Studio and .NET build outputs
+bin/
+obj/
+**/bin/
+**/obj/
+
+# VS Code
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+
+# macOS
+.DS_Store
+
+# Playwright artifacts that can be large
+**/.playwright/
+**/playwright/
+
+# NuGet packages
+*.nupkg
+
+# Logs
+*.log
+# build
+bin/
+obj/
+
+# local secrets/session
+storageState.json
+*.local.json
+
+# logs/artifacts
+logs/
+screenshots/
+
+# IDE
+.vscode/
+.idea/
+*.user
+*.suo
